@@ -1,0 +1,78 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'form1'
+  ClientHeight = 356
+  ClientWidth = 532
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object confirm: TButton
+    Position.X = 176.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'confirm'
+    TextSettings.Trimming = None
+    OnClick = confirmClick
+  end
+  object Q: TLabel
+    Position.X = 24.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 409.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Q'
+    TabOrder = 1
+  end
+  object score: TLabel
+    Position.X = 368.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'score'
+    TabOrder = 2
+  end
+  object scorelable: TLabel
+    Position.X = 424.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'scorelable'
+    TabOrder = 3
+  end
+  object ans1: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 89.000000000000000000
+    TabOrder = 4
+    Text = 'ans1'
+    OnChange = ans1Change
+  end
+  object ans2: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 129.000000000000000000
+    TabOrder = 5
+    Text = 'ans2'
+    OnChange = ans2Change
+  end
+  object ans3: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 169.000000000000000000
+    TabOrder = 6
+    Text = 'ans3'
+    OnChange = ans3Change
+  end
+  object ans4: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 209.000000000000000000
+    TabOrder = 7
+    Text = 'ans4'
+    OnChange = ans4Change
+  end
+end
